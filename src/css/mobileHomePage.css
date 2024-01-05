@@ -1,0 +1,420 @@
+/*General styling of each slide*/
+.mobileSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63vh;
+  max-width: 80vw;
+  scroll-snap-align: start;
+  overflow-x: hidden;
+}
+
+/*General styling of the h1 of each slide*/
+.mobileSlide h1 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 100;
+  text-shadow: 4px 4px 1px black;
+  clip-path: polygon(0 0, 102% 0, 102% 100%, 0% 100%);
+}
+
+/*General styling of the h2 of each slide*/
+.mobileSlide h2 {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 100;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+  color: #fff;
+  clip-path: polygon(0 0, 102% 0, 102% 100%, 0% 100%);
+}
+.mobileSlide p {
+  font-size: 12px;
+}
+
+/*navbar*/
+#mobileNavBar {
+  background-color: #05386b;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 40px;
+  text-align: center;
+  max-width: 90vw;
+  left: 5vw;
+  right: 5vw;
+  display: flex;
+  text-shadow: 2px 2px 1px black;
+  justify-content: space-between;
+  z-index: 3;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+  align-items: flex-end;
+}
+
+#mobileNavBarLanguages {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+#mobileNavBarLanguages img {
+  height: 19px;
+  margin-right: 10px;
+}
+
+#mobileNavBarContact {
+  margin-bottom: 3px;
+}
+
+/*debug*/ /* debug line for aligning elements
+  
+  #debugmiddle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+  }
+  
+  #debugline {
+    width: 1px;
+    height: 100vw;
+    background-color: black;
+  }
+  
+  /*buttons*/
+#mobileButtonsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 5%;
+  z-index: 1;
+  transition: all, 0.5s;
+  padding-right: 1.5%;
+  right: 0px;
+  top: 0px;
+}
+
+#mobileButtonsDiv button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(255, 255, 255);
+  height: 1.8vh;
+  width: 1.8vh;
+  border-radius: 50%;
+  transition: all, 0.3s;
+  margin: 1vh 0.5vh;
+}
+
+#mobileButtonsDiv .activeButton {
+  background-color: #5cdb95;
+}
+
+.mobileSlideInfo {
+  text-shadow: 2px 2px 1px black;
+}
+
+#mobilefirstShown .mobileSlideInfo {
+  opacity: 1;
+  transition: opacity 0.5s ease 1.7s;
+}
+
+#mobilefirstHidden .mobileSlideInfo {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/*FIRST SLIDE*/
+
+/*static styling*/
+.mobilefirst h1 {
+  line-height: 40px;
+}
+
+.mobilefirst {
+  overflow: hidden;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+
+/*static styling for the image of the first slide*/
+#mobileimgfirst {
+  margin: 10px;
+  width: 170px;
+  opacity: 1;
+  border-radius: 4px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.651));
+}
+
+/*animation*/
+
+/*clip path for the div of the image*/
+.mobilefirstSlideImage {
+  clip-path: polygon(0 0, 101% 0, 101% 100%, 0% 100%);
+}
+
+/*styling for the img when the slide is shown*/
+#mobilefirstShown > .mobilefirstSlideImage > img {
+  transition: all 1s;
+  transition-delay: 1.2s;
+  transform: translateY(0px);
+}
+
+/*styling for the img when the slide is hidden */
+#mobilefirstHidden > .mobilefirstSlideImage > img {
+  transition: all 1s;
+  transform: translateY(300px);
+}
+#mobilefirstClipPathH1 {
+  clip-path: polygon(0 0, 102% 0, 102% 100%, 0% 100%);
+}
+#mobilefirstClipPathH2 {
+  clip-path: polygon(0 0, 102% 0, 102% 100%, 0% 100%);
+}
+
+#mobilefirstShown h1 {
+  transform: translateY(0px);
+  transition: all 0.5s ease 0.3s;
+}
+#mobilefirstHidden h1 {
+  transform: translateY(200px);
+  transition: all 1s;
+}
+
+#mobilefirstShown h2 {
+  transform: translateY(0px);
+  transition: all 0.5s ease 0.6s;
+}
+#mobilefirstHidden h2 {
+  transform: translateY(-200px);
+  transition: all 1s;
+}
+
+/*SECOND SLIDE*/
+
+/*static styling*/
+
+.mobilesecond {
+  text-align: center;
+}
+
+/*animation*/
+
+#mobilesecondShown h1 {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+#mobilesecondHidden h1 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#mobilesecondShown h2 {
+  opacity: 1;
+  transition: all 0.5s ease 0.3s;
+}
+#mobilesecondHidden h2 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+/*THIRD SLIDE*/
+
+/*static styling*/
+
+.mobilethird {
+  text-align: center;
+}
+
+/*animation*/
+
+#mobilethirdShown h1 {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+#mobilethirdHidden h1 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#mobilethirdShown h2 {
+  opacity: 1;
+  transition: all 0.5s ease 0.3s;
+}
+#mobilethirdHidden h2 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+/*fourth SLIDE*/
+
+/*static styling*/
+
+.mobilefourth h1 {
+  text-align: center;
+}
+
+/*animation*/
+
+#mobilefourthShown h1 {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+#mobilefourthHidden h1 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#mobilefourthShown h2 {
+  opacity: 1;
+  transition: all 0.5s ease 0.3s;
+}
+#mobilefourthHidden h2 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+/*fifth SLIDE*/
+
+/*static styling*/
+
+.mobilefifth {
+  text-align: center;
+}
+
+/*animation*/
+
+#mobilefifthShown h1 {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+#mobilefifthHidden h1 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#mobilefifthShown h2 {
+  opacity: 1;
+  transition: all 0.5s ease 0.3s;
+}
+#mobilefifthHidden h2 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+/*sixth SLIDE*/
+
+/*static styling*/
+
+.mobilesixth {
+  text-align: center;
+}
+
+/*animation*/
+
+#mobilesixthShown h1 {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+#mobilesixthHidden h1 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#mobilesixthShown h2 {
+  opacity: 1;
+  transition: all 0.5s ease 0.3s;
+}
+#mobilesixthHidden h2 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+/*seventh SLIDE*/
+
+/*static styling*/
+
+.mobileseventh {
+  text-align: center;
+}
+
+/*animation*/
+
+#mobileseventhShown h1 {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+#mobileseventhHidden h1 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#mobileseventhShown h2 {
+  opacity: 1;
+  transition: all 0.5s ease 0.3s;
+}
+#mobileseventhHidden h2 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+/*eighth SLIDE*/
+
+/*static styling*/
+
+.mobileeightth {
+  text-align: center;
+}
+
+/*animation*/
+
+#mobileeighthShown h1 {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+#mobileeighthHidden h1 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#mobileeighthShown h2 {
+  opacity: 1;
+  transition: all 0.5s ease 0.3s;
+}
+#mobileeighthHidden h2 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+/*ninth SLIDE*/
+
+/*static styling*/
+
+.mobileninth {
+  padding-bottom: 10vh;
+  text-align: center;
+}
+
+/*animation*/
+
+#mobileninthShown h1 {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+#mobileninthHidden h1 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#mobileninthShown h2 {
+  opacity: 1;
+  transition: all 0.5s ease 0.3s;
+}
+#mobileninthHidden h2 {
+  opacity: 0;
+  transition: all 1s;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "first",
+    "header": "Greetings",
+    "emphasis": "I'm Nadim Nohra",
+    "rest": "a computer science graduate with a passion for programming.",
+    "image": true,
+    "info": "\n(Website designed and written by myself)"
+  },
+  {
+    "id": "second",
+    "header": "Discovering my passion",
+    "emphasis": "At the age of 15",
+    "rest": "I became obsessed with computers. Delving deeper and deeper in the realm of computers I found my passion."
+  },
+  {
+    "id": "third",
+    "header": "About my passion",
+    "emphasis": "I wrote many programs",
+    "rest": "in various programming languages. And despite being my most enjoyable hobby, software development is not my only passion, I even build my personal computer at the age of 16."
+  },
+  {
+    "id": "fourth",
+    "header": "My programming languages",
+    "emphasis": "What programming languages do I know?",
+    "rest": "As of writing this, I did not master any programming language, but I wrote programs using:\n\n    - Java (a university project)\n    - Python (two text based games)\n    - HTML + CSS + JavaScript + PHP + MySQLi (my final year university project)\n    - HTML + CSS + TypeScript + React (this website)\n    as well as a game engine language called GameMaker Language (four small 2D games)."
+  },
+  {
+    "id": "fifth",
+    "header": "My status",
+    "emphasis": "What am I doing now?",
+    "rest": "Currently I am looking for a job in Romania where I can hopefully move to."
+  },
+  {
+    "id": "sixth",
+    "header": "Work experience",
+    "emphasis": "Do I have work experience?",
+    "rest": "I do not have any work experience related to my studies. As of now I have only worked at restaurants as summer jobs"
+  },
+  {
+    "id": "seventh",
+    "header": "Education",
+    "emphasis": "My education:",
+    "rest": "At high school I excelled in Math and Physics, and currently hold a bachelor degree in computer science from the Arab Open University and from the Open University."
+  },
+  {
+    "id": "eighth",
+    "header": "Spoken languages",
+    "emphasis": "What languages do I speak?",
+    "rest": "I speak:\n\n    - English - Fluent (Learnt in middle school, high school, university, and I speak it daily)\n    - French - Intermidiate (Learnt in middle school and high school)\n    - Romanian - Beginner (Been learning for over a year using free online courses)\n    - Arabic - Native"
+  },
+  {
+    "id": "ninth",
+    "header": "More",
+    "emphasis": "More about myself:",
+    "rest": "\n- Sex: Male\n    - Birth year: 2001\n    - Religion: Christian"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "first",
+    "header": "Salutări",
+    "emphasis": "Eu sunt Nadim Nohra",
+    "rest": "absolvent de Știința Calculatoarelor, pasionat de programare.",
+    "image": true,
+    "info": "\n(Website conceput și scris de mine însumi.)"
+  },
+  {
+    "id": "second",
+    "header": "Descoperindu-mi pasiunea",
+    "emphasis": "La vîrsta de 15 ani",
+    "rest": "am devenit obsedat de calculatoare. Mi-am găsit pasiunea pe măsură ce am pătruns din ce în ce mai mult în lumea calculatoarelor."
+  },
+  {
+    "id": "third",
+    "header": "Despre pasiunea mea",
+    "emphasis": "Am scris multe programe",
+    "rest": "în diferite limbaje de programare. Și, deși este hobby-ul meu preferat, dezvoltarea de software nu este singura mea pasiune, la vîrsta de 16 ani construindu-mi propriul calculator."
+  },
+  {
+    "id": "fourth",
+    "header": "Limbajele mele de programare",
+    "emphasis": "Ce limbaje de programare cunosc?",
+    "rest": "La momentul actual nu stăpînesc niciun limbaj de programare, dar am scris programe folosind:\n\n    - Java (un proiect la facultate)\n    - Python (două jocuri bazate pe text)\n    - HTML + CSS + JavaScript + PHP + MySQLi (proiectul meu de licență)\n    - HTML + CSS + TypeScript + React (acest website)\n    precum și GameMaker Language (patru jocuri 2D)."
+  },
+  {
+    "id": "fifth",
+    "header": "Statul meu",
+    "emphasis": "Ce fac acum?",
+    "rest": "Momentan caut un loc de muncă în Romania, unde sper să mă mut."
+  },
+  {
+    "id": "sixth",
+    "header": "Experiență de muncă",
+    "emphasis": "Am experiență de muncă?",
+    "rest": "Nu am nicio experiență de lucru legată de domeniul studiat. Până acum am avut doar joburi de vară la restaurante."
+  },
+  {
+    "id": "seventh",
+    "header": "Educație",
+    "emphasis": "Educația mea:",
+    "rest": "La liceu am excelat la matematică și fizică, iar în prezent dețin o diplomă de licență în Știința Calculatoarelor de la Arab Open University și de la Open University."
+  },
+  {
+    "id": "eighth",
+    "header": "Limbi vorbite",
+    "emphasis": "Ce limbi vorbesc?",
+    "rest": "Vorbesc:\n\n    - Engleză - Fluent (Am învațat în școală generală, liceu, universitate și o vorbesc zilnic)\n    - Franceză - Intermediar (Am învățat la școală generală și liceu)\n    - Română - Începător (Învăț de peste un an folosind cursuri online gratuite)\n    - Arabă - Nativ"
+  },
+  {
+    "id": "ninth",
+    "header": "Mai mult",
+    "emphasis": "Mai multe despre mine:",
+    "rest": "\n- Sex: Bărbat\n    - Anul naşterii: 2001 \n    - Religie: creştină"
+  }
+]
