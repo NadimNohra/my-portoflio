@@ -310,10 +310,12 @@
 #pcfourthShown h2 {
   opacity: 1;
   transition: all 0.5s ease 0.3s;
+  text-align: center;
 }
 #pcfourthHidden h2 {
   opacity: 0;
   transition: all 1s;
+  text-align: center;
 }
 
 /*fifth SLIDE*/
