@@ -232,6 +232,20 @@
   transition: all 1s;
 }
 
+#pcfirstHidden h2 a {
+  font-weight: bold;
+  color: #d1113f;
+  text-decoration: underline;
+  text-shadow: 4px 4px 1px black;
+}
+
+#pcfirstShown h2 a {
+  font-weight: bold;
+  color: #d1113f;
+  text-decoration: underline;
+  text-shadow: 4px 4px 1px black;
+}
+
 /*SECOND SLIDE*/
 
 /*static styling*/

@@ -172,7 +172,8 @@ function App() {
                       selectedLanguage.find(
                         (item: { id: string }) => item.id === "first"
                       )?.rest
-                    }
+                    }{" "}
+                    <a href="https://www.softimpact.net/">Softimpact</a>
                   </h2>
                 </div>
                 <p className={classSelector("SlideInfo")}>
