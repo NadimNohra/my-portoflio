@@ -23,7 +23,7 @@
     "id": "fourth",
     "header": "My programming languages",
     "emphasis": "What programming languages do I know?",
-    "rest": "As of writing this, I did not master any programming language, but I wrote programs using:\n\n    - Java (a university project)\n    - Python (two text based games)\n    - HTML + CSS + JavaScript + PHP + MySQLi (my final year university project)\n    - HTML + CSS + TypeScript + React (this website)\n    as well as a game engine language called GameMaker Language (four small 2D games)."
+    "rest": "I use ASP.Net framework and ASP.Net Core on a daily basis at work and but I've also previously written programs in Java and Python as well as this website which uses React."
   },
   {
     "id": "fifth",
@@ -35,7 +35,7 @@
     "id": "sixth",
     "header": "Work experience",
     "emphasis": "Do I have work experience?",
-    "rest": "I do not have any work experience related to my studies. As of now I have only worked at restaurants as summer jobs"
+    "rest": "I currently work at Softimpact, a web design development and e-marketing company that provides solutions to companies inside and outside the country."
   },
   {
     "id": "seventh",

@@ -23,7 +23,7 @@
     "id": "fourth",
     "header": "Limbajele mele de programare",
     "emphasis": "Ce limbaje de programare cunosc?",
-    "rest": "La momentul actual nu stăpînesc niciun limbaj de programare, dar am scris programe folosind:\n\n    - Java (un proiect la facultate)\n    - Python (două jocuri bazate pe text)\n    - HTML + CSS + JavaScript + PHP + MySQLi (proiectul meu de licență)\n    - HTML + CSS + TypeScript + React (acest website)\n    precum și GameMaker Language (patru jocuri 2D)."
+    "rest": "Folosesc ASP.Net framework și ASP.Net Core zilnic la locul de muncă și, de asemenea, am scris anterior programe în Java și Python, precum și acest site web care folosește React."
   },
   {
     "id": "fifth",
@@ -35,7 +35,7 @@
     "id": "sixth",
     "header": "Experiență de muncă",
     "emphasis": "Am experiență de muncă?",
-    "rest": "Nu am nicio experiență de lucru legată de domeniul studiat. Până acum am avut doar joburi de vară la restaurante."
+    "rest": "În prezent lucrez la Softimpact, o companie de dezvoltare web design și e-marketing care oferă soluții companiilor din țară și din afara țării."
   },
   {
     "id": "seventh",
