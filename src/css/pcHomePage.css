@@ -75,7 +75,7 @@
   max-width: 100vw;
   display: flex;
   text-shadow: 2px 2px 1px black;
-  background-color: #05386b;
+  background-color: #ddb472;
   z-index: 2;
   justify-content: center;
   align-items: flex-end;
@@ -138,7 +138,7 @@
 }
 
 #pcButtonsDiv button:hover {
-  background-color: #99d4b4;
+  background-color: white;
   margin: 1vh;
   padding: -1vh;
   height: 3vh;
@@ -151,7 +151,7 @@
 }
 
 #pcButtonsDiv .activeButton {
-  background-color: #5cdb95;
+  background-color: white;
 }
 
 .pcSlideInfo {
@@ -236,14 +236,12 @@
   font-weight: bold;
   color: #d1113f;
   text-decoration: underline;
-  text-shadow: 4px 4px 1px black;
 }
 
 #pcfirstShown h2 a {
   font-weight: bold;
   color: #d1113f;
   text-decoration: underline;
-  text-shadow: 4px 4px 1px black;
 }
 
 /*SECOND SLIDE*/

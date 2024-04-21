@@ -33,7 +33,7 @@
 
 /*navbar*/
 #mobileNavBar {
-  background-color: #05386b;
+  background-color: #ddb472;
   position: fixed;
   top: 0px;
   width: 100vw;
@@ -111,7 +111,7 @@
 }
 
 #mobileButtonsDiv .activeButton {
-  background-color: #5cdb95;
+  background-color: white;
 }
 
 .mobileSlideInfo {
@@ -192,6 +192,18 @@
 #mobilefirstHidden h2 {
   transform: translateY(-200px);
   transition: all 1s;
+}
+
+#mobilefirstHidden h2 a {
+  font-weight: bold;
+  color: #d1113f;
+  text-decoration: underline;
+}
+
+#mobilefirstShown h2 a {
+  font-weight: bold;
+  color: #d1113f;
+  text-decoration: underline;
 }
 
 /*SECOND SLIDE*/
